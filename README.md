@@ -21,10 +21,10 @@ This script automates subdomain enumeration and categorizes live subdomains base
 - `anew` (for handling unique results)  
 
 # You can install them using:  
-go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
-go install -v github.com/tomnomnom/assetfinder@latest
-go install -v github.com/projectdiscovery/httpx/cmd/httpx@latest
-go install -v github.com/tomnomnom/anew@latest
+- go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
+- go install -v github.com/tomnomnom/assetfinder@latest
+- go install -v github.com/projectdiscovery/httpx/cmd/httpx@latest
+- go install -v github.com/tomnomnom/anew@latest
 
 
 # Usage
