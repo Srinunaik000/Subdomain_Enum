@@ -1,4 +1,3 @@
-# Subdomain_Enum
 
 # Subdomain Enumeration Script  
 
@@ -37,15 +36,15 @@ go install -v github.com/tomnomnom/anew@latest
 ./sub_enum.sh -u example.com
 
 # The script will:
-Find subdomains using subfinder, assetfinder, and chaos.
-Check which subdomains are live.
-Save categorized subdomains in the subdomains/ directory.
+- Find subdomains using subfinder, assetfinder, and chaos.
+- Check which subdomains are live.
+- Save categorized subdomains in the subdomains/ directory.
 
 # Output Files
 * After running the script, the results will be saved in:
-subdomains/mixed_subdomains.txt → All found subdomains
-subdomains/all_responses.txt → All live subdomains with response codes
-subdomains/200-subs.txt → Live subdomains with HTTP 200
-subdomains/403-subs.txt → Live subdomains with HTTP 403
-subdomains/404-subs.txt → Live subdomains with HTTP 404
-subdomains/other-responses.txt → Other HTTP responses
+- subdomains/mixed_subdomains.txt → All found subdomains
+- subdomains/all_responses.txt → All live subdomains with response codes
+- subdomains/200-subs.txt → Live subdomains with HTTP 200
+- subdomains/403-subs.txt → Live subdomains with HTTP 403
+- subdomains/404-subs.txt → Live subdomains with HTTP 404
+- subdomains/other-responses.txt → Other HTTP responses
