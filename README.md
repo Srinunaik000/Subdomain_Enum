@@ -14,7 +14,7 @@ This script automates subdomain enumeration and categorizes live subdomains base
   - `other-responses.txt` → Other HTTP responses  
 
 ## Requirements  
-Ensure you have the following installed before running the script:  
+* Ensure you have the following installed before running the script:  
 - `subfinder`  
 - `assetfinder`  
 - `chaos`  
@@ -22,7 +22,6 @@ Ensure you have the following installed before running the script:
 - `anew` (for handling unique results)  
 
 # You can install them using:  
-```sh
 go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
 go install -v github.com/tomnomnom/assetfinder@latest
 go install -v github.com/projectdiscovery/httpx/cmd/httpx@latest
@@ -30,20 +29,20 @@ go install -v github.com/tomnomnom/anew@latest
 
 
 # Usage
-Run the script with:
+* Run the script with:
 ./sub_enum.sh -u example.com
 
 # Example
-If you want to find subdomains for example.com, run:
+* If you want to find subdomains for example.com, run:
 ./sub_enum.sh -u example.com
 
 # The script will:
 Find subdomains using subfinder, assetfinder, and chaos.
 Check which subdomains are live.
 Save categorized subdomains in the subdomains/ directory.
-Output Files
-After running the script, the results will be saved in:
 
+# Output Files
+* After running the script, the results will be saved in:
 subdomains/mixed_subdomains.txt → All found subdomains
 subdomains/all_responses.txt → All live subdomains with response codes
 subdomains/200-subs.txt → Live subdomains with HTTP 200
