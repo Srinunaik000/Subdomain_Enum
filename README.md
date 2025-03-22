@@ -28,6 +28,8 @@ This script automates subdomain enumeration and categorizes live subdomains base
 
 
 # Usage
+* Ensure you have the right permissions to execute the script:
+chmod +x sub_enum.sh
 * Run the script with:
 ./sub_enum.sh -u example.com
 
