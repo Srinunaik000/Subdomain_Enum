@@ -21,23 +21,23 @@ Ensure you have the following installed before running the script:
 - `httpx`  
 - `anew` (for handling unique results)  
 
-You can install them using:  
+# You can install them using:  
 ```sh
 go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
 go install -v github.com/tomnomnom/assetfinder@latest
 go install -v github.com/projectdiscovery/httpx/cmd/httpx@latest
 go install -v github.com/tomnomnom/anew@latest
-Usage
+
+
+# Usage
 Run the script with:
-
-
 ./sub_enum.sh -u example.com
-Example
+
+# Example
 If you want to find subdomains for example.com, run:
-
 ./sub_enum.sh -u example.com
-The script will:
 
+# The script will:
 Find subdomains using subfinder, assetfinder, and chaos.
 Check which subdomains are live.
 Save categorized subdomains in the subdomains/ directory.
